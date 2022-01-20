@@ -94,6 +94,7 @@ df-messenger {
  --df-messenger-font-color: white;
  --df-messenger-send-icon: #6fbfb3;
  --df-messenger-user-message: #FFBC5B;
+ --df-messenger-chat-icon: 45px; 
 }
 hr {
   margin: 1rem 0;
