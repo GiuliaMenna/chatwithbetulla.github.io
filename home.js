@@ -65,7 +65,7 @@ $(document).ready(function() {
         $r3 = $r2.shadowRoot.querySelector("df-messenger-user-input"); //for other mods
 
         var sheet = new CSSStyleSheet;
-        sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 400px }`);
+        sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 600px }`);
         $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
 
     });
