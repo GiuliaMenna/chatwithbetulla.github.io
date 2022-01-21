@@ -67,7 +67,7 @@ $(document).ready(function() {
         var sheet = new CSSStyleSheet;
         sheet.replaceSync( `div.chat-wrapper[opened="true"] { height: 600px }`);
         $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
-        sheet.replaceSync( `div.chat-icon[opened="true"] { width: 50px }`);
+        sheet.replaceSync( `div.chat-icon { width: 50px }`);
         $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
 
     });
