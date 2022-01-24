@@ -89,7 +89,7 @@ body {
 }
 df-messenger {
  --df-messenger-bot-message: #AA78FC;
- --df-messenger-button-titlebar-color: #FFBC5B;
+ --df-messenger-button-titlebar-color:  #b237bf;
  --df-messenger-chat-background-color: #fafafa;
  --df-messenger-font-color: white;
  --df-messenger-send-icon: #6fbfb3;
@@ -3039,19 +3039,23 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #32a895;
+  border-color: #32a895;
+  transition: all .2s ease-in-out;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #b237bf;
+  border-color: #b237bf;
+  transform: scale(1.05);
+
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #cf5331;
   border-color: #c34e2e;
   box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  transform: scale(1.05);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -7491,7 +7495,7 @@ textarea.form-control-lg {
 
 .py-3 {
   padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .py-4 {
@@ -7816,12 +7820,17 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(to bottom, rgba(112, 207, 206, 1) 0%,  rgba(244, 241, 241, 0.8) 100%);
 }
 
-.bg-secondary {
+#services {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(to bottom, rgba(244, 241, 241, 0.8) 0%,  rgba(244, 241, 241, 0.8) 100%);
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background: linear-gradient(to bottom, rgba(244, 241, 241, 0.8) 0%, rgba(112, 207, 206, 0.8) 100%);
 }
 
 .bg-success {
@@ -7846,13 +7855,10 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background: linear-gradient(to bottom, rgba(132, 68, 255, 0.8) 0%, rgba(132, 68, 255, 0.8) 100%);
 }
 
-.bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-}
+
 
 .bg-black {
   --bs-bg-opacity: 1;
@@ -7897,7 +7903,9 @@ textarea.form-control-lg {
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
 }
-
+#contact {
+    background: linear-gradient(to bottom, rgba(112, 207, 206, 0.8) 0%, rgba(132, 68, 255, 0.8) 100%);
+}
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
@@ -11326,7 +11334,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #32a895;
   opacity: 1;
 }
 
@@ -11336,7 +11344,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #b237bf;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11380,7 +11388,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #b237bf;;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
