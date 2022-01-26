@@ -11487,19 +11487,19 @@ header.masthead h1, header.masthead .h1 {
   color: #fff;
 }
 .c1{
-  background-image: url('../chatwithbetulla-github.io/download.jpeg');
+  background-image: url('../chatwithbetulla-github.io/first.jpeg');
   background-size: contain;
 
 }
 .c2{
-  background-image: url('../chatwithbetulla-github.io/download (1).jpeg');
+  background-image: url('../chatwithbetulla-github.io/second.jpeg');
   background-size: cover;
 }
 .c3{
-  background-image: url('../chatwithbetulla-github.io/download (2).jpeg');
+  background-image: url('../chatwithbetulla-github.io/third.jpeg');
   background-size: cover;
 }
 .c4{
-  background-image: url('../chatwithbetulla-github.io/download (4).jpeg');
+  background-image: url('../chatwithbetulla-github.io/fourth.jpeg');
   background-size: contain;
 }
