@@ -11487,7 +11487,7 @@ header.masthead h1, header.masthead .h1 {
   color: #fff;
 }
 .c1{
-  background-image: url('../chatwithbetulla-github.io/first.jpeg');
+  background-image: url('first.jpeg');
   background-size: contain;
 
 }
@@ -11496,10 +11496,10 @@ header.masthead h1, header.masthead .h1 {
   background-size: cover;
 }
 .c3{
-  background-image: url('../chatwithbetulla-github.io/third.jpeg');
+  background-image: url('third.jpeg');
   background-size: cover;
 }
 .c4{
-  background-image: url('../chatwithbetulla-github.io/fourth.jpeg');
+  background-image: url('fourth.jpeg');
   background-size: contain;
 }
