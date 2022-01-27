@@ -11504,5 +11504,13 @@ header.masthead h1, header.masthead .h1 {
   background-size: contain;
 }
 .lang2{
-  padding-right: 5rem;
+  margin-right: 5rem;
+}
+.lang1, .lang2{
+  border: solid 1px purple;
+  border-radius: 10px 10px 10px 10px;
+  background-color: purple;
+}
+.lang1:hover, .lang2:hover{
+  background-color: #42ebeb;
 }
