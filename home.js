@@ -71,4 +71,7 @@ $(document).ready(function() {
         $r1.shadowRoot.adoptedStyleSheets = [ sheet ];
 
     });
+    function changechatbot(){
+    document.getElementById('whichpage').getAttribute("href");//adpat to our different filenames
+  };
 });
