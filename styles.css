@@ -11513,4 +11513,5 @@ header.masthead h1, header.masthead .h1 {
 }
 .lang1:hover, .lang2:hover{
   background-color: #42ebeb;
+  border: solid 1px #42ebeb;
 }
