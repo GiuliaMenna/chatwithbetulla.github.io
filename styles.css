@@ -11515,3 +11515,7 @@ header.masthead h1, header.masthead .h1 {
   background-color: #42ebeb;
   border: solid 1px #42ebeb;
 }
+.card{
+  width: 25rem;
+  margin-left: 15%;
+}
