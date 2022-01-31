@@ -114,7 +114,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.2;
 }
-
+h2{
+  padding-bottom: 1rem;
+}
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -7685,11 +7687,9 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
-  transition: all .2s ease-in-out;
 }
 .text-center:hover{
   color: purple;
-  transform: scale(1.05);
 
 }
 .text-decoration-none {
@@ -7832,12 +7832,13 @@ textarea.form-control-lg {
 
 #services {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to bottom, rgba(244, 241, 241, 0.8) 0%,  rgba(244, 241, 241, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(244, 241, 241, 0.8) 0%,  rgba(174, 223, 226, 0.8) 100%);
+  padding-bottom: 0;
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background: linear-gradient(to bottom, rgba(244, 241, 241, 0.8) 0%, rgba(112, 207, 206, 0.8) 100%);
+  background: linear-gradient(to bottom, rgba(174, 223, 226, 0.8) 30%, rgba(112, 207, 206, 0.8) 100%);
 }
 
 .bg-success {
@@ -11321,12 +11322,19 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
+.introduction{
+  transition: all .2s ease-in-out;
+}
+.introduction:hover{
+  transform:scale(1.05);
+}
+
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
@@ -11529,4 +11537,8 @@ header.masthead h1, header.masthead .h1 {
 }
 .presentation{
   color: #50DCD9;
+}
+.titolo{
+  padding: 0;
+  margin: 0;
 }
