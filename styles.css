@@ -11517,7 +11517,7 @@ header.masthead h1, header.masthead .h1 {
   margin-right: 5rem;
 }
 .prima{
-  margin-right: 7.5rem; 
+  margin-right: 7.5rem;
 }
 .lang1, .prima{
   border: solid 1px purple;
@@ -11525,7 +11525,7 @@ header.masthead h1, header.masthead .h1 {
   background-color: purple;
 }
 .lang2, .seconda{
-  border: solid 1px purple;
+  border: solid 1px #d086d0;
   border-radius: 10px 10px 10px 10px;
   background-color: #d086d0;
 }
