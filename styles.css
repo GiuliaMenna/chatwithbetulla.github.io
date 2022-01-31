@@ -11516,10 +11516,18 @@ header.masthead h1, header.masthead .h1 {
 .lang2{
   margin-right: 5rem;
 }
-.lang1, .lang2{
+.prima{
+  margin-right: 7.5rem; 
+}
+.lang1, .prima{
   border: solid 1px purple;
   border-radius: 10px 10px 10px 10px;
   background-color: purple;
+}
+.lang2, .seconda{
+  border: solid 1px purple;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #d086d0;
 }
 .lang1:hover, .lang2:hover{
   background-color: #50DCD9;
