@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <link rel="icon" type="image/png" href="images.png">
-        <title>Betulla - Your chatbot for the Museum of the Paleolithic of Isernia</title>
+        <title>Betulla - Il tuo chatbot per il Museo del Paleolitico di Isernia</title>
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -26,15 +26,15 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">NLP Project</a>
+                <a class="navbar-brand" href="#page-top">Home</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                      <li class="nav-item lang1"><a class="nav-link" onclick="changechatbot('whichpage')" href="index.html">En</a></li>
                       <li class="nav-item lang2"><a class="nav-link" onclick="changechatbot('whichpage')" href="italian.html">It</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Development</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Idea</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Sviluppo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contatti</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,27 +42,27 @@
 
         <body>
 
-        <div class="chatbotitalian">
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <div id="chatbotenglish">
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
         <df-messenger
           intent="WELCOME"
           chat-title="Betulla"
           agent-id="a779f608-bb69-4704-a0d7-977b9d2b1b77"
-          language-code="it"
+          language-code="en"
           chat-icon="https://i.postimg.cc/85yTL5gD/Avatar-Maker.png"
         ></df-messenger>
-        </div>
+      </div>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold chatbot">Ciao Betulla</h1>
+                        <h1 class="text-white font-weight-bold chatbot">Chat with Betulla</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">This chatbot is implemented as a project in Natural Language Processing with Professor Tamburini. Betulla is the chatbot for the Museum and Archeological Site of Isernia La Pineta. She gives logistical and historical information about the museum.</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                        <p class="text-white-75 mb-5 introduction">Questo chatbot è stato implementato come progetto per l'esame di Natural Language Processing con il Prof. Fabio Tamburini. Betulla è un chatbot pensato per il Museo e Il sito Archeologico di Isernia La Pineta. Dà informazioni logistiche e storiche riguardo l'istituzione.</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Scopri di più</a>
                     </div>
                 </div>
             </div>
@@ -72,71 +72,132 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">About</h2>
+                        <h2 class="text-white mt-0">L'idea</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4"><b>Chat with Betulla</b> is a project implemented for the Natural Language Processing exam. <br> It is a testable Dialogflow chatbot integrated within the website. Using AI technologies, it is able to interact with humans having a conversation about the pivotal aspects concerning the National Paleolithic Museum of Isernia. <br>
-The initial idea was to grasp the potentiality of an artificial assistant for improving the experience of the user in a cultural heritage domain. I immediately thought that choosing a museum of my hometown as a reference could be interesting both to give prominence to the archeological history of Isernia and also to exploit the artificial intelligence in an unusual environment.
-It has been trained with the purpose of informing the visitors about the important archeological heritage stored within the museum and also in the common practice, for chatbots, to suggest logistical information to users and make their interaction with the institution as easy as possible.
-This chatbot is named Betulla and was implemented on the Dialogflow platform, in English and Italian languages. For handling the multilanguage chatbot and being able to switch automatically from one language to another was necessary an API connection integrated using Python.
-</p>
-                        <a class="btn btn-light btn-xl" href="#services">Button</a>
+                        <p class="text-white-75 mb-4"><b>Chat with Betulla</b> è un chatbot pronto all'uso, implementato tramite l'uso di Dialogflow, e integrato all'interno di questo sito. Utilizzando tecnologie di Artificial Intelligence, è in grado di interagire con gli esseri umani avendo una conversazione sugli aspetti cardine riguardanti il Museo Nazionale del Paleolitico di Isernia.<br>
+L'idea iniziale era quella di cogliere le potenzialità di un assistente artificiale per migliorare l'esperienza dell'utente in un dominio del patrimonio culturale. Ho subito pensato che scegliere come riferimento un museo della mia città potesse essere interessante sia per dare risalto alla storia archeologica di Isernia, sia per sfruttare l'intelligenza artificiale in un ambito insolito.</p>
+<p class="text-white-75 mb-4 presentation">È stato allenato con lo scopo di informare i visitatori circa l'importante patrimonio archeologico conservato all'interno del museo e anche nella pratica comune, per i chatbot, di suggerire informazioni logistiche agli utenti e rendere la loro interazione con l'istituzione il più semplice possibile.
+L'assistente virtuale si chiama Betulla ed è stato implementato sulla piattaforma Dialogflow, in inglese e italiano. Per gestire le due lingue ed essere in grado di passare automaticamente da una lingua all'altra ho scelto di adattare il sito web anche in italiano. </p>
+
+                        <a class="btn btn-primary btn-xl" href="#museum">Find out the museum</a>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="page-section bg-primary" id="museum">
+        <div class="container px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-lg-8 text-center">
+            <h2 class="text-center mt-0">L'Istituzione</h2>
+            <p class="text-center-75 mb-4">Il Museo Nazionale Paleolitico si trova a Isernia, nei pressi del sito di scavo che prende il nome di Isernia La Pineta. <br>Il giacimento preistorico fu scoperto occasionalmente nel 1978 da Alberto Solinas, durante i lavori per la costruzione di una strada di collegamento per la SS 85. Grazie all'enorme quantità di artefatti trovati o ancora da scoprire, è considerato uno dei più ricchi paleosuoli e rappresenta un'eccezionale documentazione delle fasi più antiche dei popoli del continente europeo. Costituisce un punto nodale per lo studio della preistoria italiana ed europea.</p>
+          </div>
+        </div>
+      </div>
+    </section>
         <!-- Services-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="Foto-1-1024x683.jpeg" title="View inside the museum">
+                            <img class="img-fluid" src="Foto-1-1024x683.jpeg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Museo</div>
+                                <div class="project-name">La mostra permanente</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="1.jpeg" title="Archeological excavation">
+                            <img class="img-fluid" src="1.jpeg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Scavi archeologici</div>
+                                <div class="project-name">Isernia La Pineta</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="foto-2.jpeg" title="Environment reconstruction">
+                            <img class="img-fluid" src="foto-2.jpeg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Ricostruzione dell'ambiente</div>
+                                <div class="project-name">L'insediamento</div>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Development</h2>
+                <h2 class="text-center mt-0">Realizzazione del progetto</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5 c1">
                             <div class="mb-2"><i class="bi-lightbulb fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Phase 1</h3>
-                            <p class="text-muted mb-0">Thinking a possible project: a multilanguage chatbot for a museum!</p>
+                            <h3 class="h4 mb-2">Fase 1</h3>
+                            <p class="text-muted mb-0">Pensare ad un possibile progetto: un chatbot multilingue per un museo!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5 c2">
                             <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Phase 2</h3>
-                            <p class="text-muted mb-0">Surfing on the internet and learning about Dialogflow.</p>
+                            <h3 class="h4 mb-2">Fase 2</h3>
+                            <p class="text-muted mb-0">Ricerche su internet e studio della console di Dialoglow.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5 c3">
                             <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Phase 3</h3>
-                            <p class="text-muted mb-0">Working on the implementation of the chatbot and the website.</p>
+                            <h3 class="h4 mb-2">Fase 3</h3>
+                            <p class="text-muted mb-0">Sviluppo <br> del chatbot e del sito web.</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5 c4">
                             <div class="mb-2"><i class="bi-chat-left-text fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Phase 4</h3>
-                            <p class="text-muted mb-0">The chatbot is ready to be used and to interact with humans.</p>
+                            <h3 class="h4 mb-2">Fase 4</h3>
+                            <p class="text-muted mb-0">Il chatbot è pronto per essere testato e per interagire con gli utenti.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container px-4 px-lg-5">
+                  <div class="row gx-4 gx-lg-5 justify-content-center">
+                      <div class="col-lg-8 text-center">
+            <p class="text-center-75 mb-4 develop">Per la creazione del chatbot ho deciso di iniziare partendo dal design completo della conversazione in una sola lingua, all'inizio in inglese, per poi tradurre tutti gli Intents e le Training Phrases in italiano, al fine di avere una struttura esaustiva e completa in entrambi, fornendo lo stesso tipo di risposte nelle due versioni.<br>
+        Ho iniziato dedicandomi a un brainstorming e pensando quali potessero essere le domande più gettonate per un potenziale visitatore, che naviga sul sito del Museo. <br>Ho deciso di dividere le possibili interazioni dell'utente in tre macro-categorie già all'inizio della conversazione: informazioni logistiche, nozioni sul museo e sui suoi reperti archeologici e alcune informazioni sull'assistente virtuale Betulla.
+        All'interno delle informazioni logistiche per un potenziale visitatore è possibile scoprire quanto c'è da sapere su orari di apertura, giorni di chiusura, posizione, trasporti per raggiungere il sito, prezzo dei biglietti, ultime informazioni su Covid-19 e molto altro ancora.
+        Mentre da un punto di vista più didattico, ho deciso di fornire i punti di forza più interessanti del Museo, come la storia della scoperta del sito archeologico, i reperti più interessanti, informazioni sull' Homo Aeserniensis, la scoperta del dentino e la conformazione del paesaggio naturale dell'insediamento con le sue specie naturali e animali.</p>
+
+            </div>
+          </div>
+        </div>
         </section>
 
         <!-- Call to action-->
         <section class="page-section bg-dark text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">boh</h2>
-                <a class="btn btn-light btn-xl">Download Now!</a>
+                      <div class="row gx-4 gx-lg-5 justify-content-center">
+                          <div class="col-lg-8 text-center">
+                            <h2 class="mb-4 titolo">Integrazione per Dialogflow Messenger</h2>
+                <p class="text-center-75 mb-4 develop">La piattaforma più funzionale per la realizzazione del chatbot, rispetto all'implementazione di base solo testuale, è costituita sicuramente da Dialogflow Messenger per via dell'abbondanza di Rich Responses che possono essere gestite attraverso l'opzione "Custom payload" che permette di creare card, link, immagini, bottoni per scelte multiple ecc.<br> L'idea di integrare il chatbot in un sito web vuole ricreare il modo in cui accadrebbe nel sito reale del museo, se dovesse essere adottato in futuro anche dall'Istituzione di riferimento.<br>
+  Le Rich responses hanno lo scopo di generare una risposta più esaustiva per le esigenze dell'utente e anche riorientare più precisamente le possibili domande, suggerendo la possibile continuazione della conversazione. <br>Sono task-oriented perché aiutano il chatbot a ricevere principalmente domande a cose che siano facili da gestire e recuperare dall'Intelligenza Artificiale. Tuttavia, gli utenti sono comunque in grado di formulare le proprie domande senza seguire il percorso suggerito dalla macchina. </p>
+
+
             </div>
+          </div>
+        </div>
         </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
+                        <h2 class="mt-0">Qualcosa su di me</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Something about me</p>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -153,19 +214,19 @@ This chatbot is named Betulla and was implemented on the Dialogflow platform, in
                             <img src="giulia.jpeg" class="card-img-top" alt="Giulia Menna">
                             <div class="card-body">
                               <h5 class="card-title">Giulia Menna</h5>
-                              <p class="card-text">(tradurre!) I graduated in Humanities, Modern Curriculum, at the university of Milan and I am currently attending DHDK Master’s degree at the University of Bologna. I’ve been for so long mainly a Literature enthusiast, but now my personal interests expanded to Computational Linguistics, Natural Language Processing, Web technologies and, last but not least, to cooking experiments!</p>
+                              <p class="card-text">Ho conseguito la laurea triennale in Lettere Moderne presso l'Università di Milano e sono attualmente iscritta al corso di Laurea Magistrale in Digital Humanities presso l'Alma Mater Studiorum di Bologna. Sono stata per lungo tempo soprattutto un'appassionata di Letteratura, ma ora i miei interessi personali si sono estesi alla Linguistica Computazionale, NLP e Tecnologie Web! Sono molto interessata al mondo del Natural Language Processing e alle sue diverse applicazioni, specialmente il design delle conversazioni per i chatbot e le applicazioni dell'Intelligenza Artificiale alla linguistica. </p>
                               </div>
                           </div>
                         </div>
                     </div>
-                  </div>
-                    <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                            <i class="bi-envelope fs-2 mb-3 text-muted"></i>
-                            <div><a href="mailto:giulia.menna@studio.unibo.it">giulia.menna@studio.unibo.it</a></div>
-                        </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-envelope fs-2 mb-3 text-muted"></i>
+                        <div><a href="mailto:giulia.menna@studio.unibo.it">giulia.menna@studio.unibo.it</a></div>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
