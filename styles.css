@@ -11559,5 +11559,16 @@ header.masthead h1, header.masthead .h1 {
   transition: all .2s ease-in-out;
 }
 .chatimg:hover{
+  padding: 1rem;
+  transform: scale(1.05);
+}
+b{
+  color: #f44;
+}
+.c1, .c2, .c3, .c4{
+  transition: all .2s ease-in-out;
+  opacity: 0.9;
+}
+.c1:hover, .c2:hover, .c3:hover, .c4:hover{
   transform: scale(1.05);
 }
