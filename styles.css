@@ -11551,5 +11551,13 @@ header.masthead h1, header.masthead .h1 {
   margin: 0;
 }
 .concept{
-  color: purple; 
+  color: purple;
+}
+.chatimg{
+  padding: 1rem;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+}
+.chatimg:hover{
+  transform: scale(1.05);
 }
